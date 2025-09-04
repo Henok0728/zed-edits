@@ -1,0 +1,122 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+//
+{
+  "vim_mode": false,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": "Github Dark Colorblind"
+}
+
+
+{
+  "autosave":"on_focus_change",
+
+}
+{
+  "active_pane_modifiers": {
+    "magnification": 1.0,
+    "border_size": 0.0,
+    "inactive_opacity": 1.0
+  }
+}
+{
+  "buffer_font_features": {
+    "calt": false
+  }
+}
+{
+"hide_mouse": "on_typing_and_movement"
+}
+"scrollbar": {
+  "cursors": true,
+  "git_diff": true,
+  "search_results": true,
+  "selected_text": true,
+  "selected_symbol": true,
+  "diagnostics": "all",
+  "show": "always",
+
+  "axes": {
+    "horizontal": true,
+    "vertical": true,
+  },
+},
+{
+  "minimap": {
+    "current_line_highlight": null
+  }
+}
+"tab_bar": {
+  "show": true,
+  "show_nav_history_buttons": true,
+  "show_tab_bar_buttons": true
+}
+{
+  "minimap": {
+    "show": "always",
+    "thumb": "always",
+    "thumb_border": "left_open",
+    "current_line_highlight": null
+  }
+}
+"toolbar": {
+  "breadcrumbs": true,
+  "quick_actions": true,
+  "selections_menu": true,
+  "agent_review": true,
+  "code_actions": true
+},
+"lsp": {
+  "rust-analyzer": {
+    "initialization_options": {
+      "check": {
+        "command": "clippy" // rust-analyzer.check.command (default: "check")
+      }
+    }
+  }
+}
+{
+  "terminal": {
+  {
+    {
+      "copy_on_select": true,
+      "font_family": "Berkeley Mono"
+
+    }
+  }
+
+    "env": {
+      "ZED": "1",
+      "KEY": "value1:value2"
+    }
+  }
+ {
+  "icon_theme": {
+    "mode": "system",
+    "light": "Light Icon Theme",
+    "dark": "Dark Icon Theme"
+  }
+}
+
+{
+    "lsp": {
+      "pyright": {
+        "settings": {
+          "python.analysis": {
+            "diagnosticMode": "workspace",
+            "typeCheckingMode": "strict"
+          },
+          "python": {
+            "pythonPath": ".venv/bin/python"
+          }
+        }
+      }
+    }
+  }
